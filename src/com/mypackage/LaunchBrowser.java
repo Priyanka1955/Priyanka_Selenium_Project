@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LaunchBrowser {
 
 	public static void main(String[] args) throws InterruptedException{
+ 
+System.out.println(".....");
 		
 		//System.setproprty - to set the path of chromediver.exe in your system
 		System.setProperty("webdriver.chrome.driver", "C://Drivers//chromedriver.exe");
